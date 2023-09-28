@@ -1,0 +1,248 @@
+body{
+    font-family:'Roboto',sans-serif;
+    color:#434455;
+    background-color:var(--white);
+
+}
+
+:root{
+    --purple:#4D5AE5;
+    --navy-blue:#2E2F42;
+    --grey-paragraphs:#434455;
+    --off-white:#F4F4FD;
+    --white:#FFF;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color:#4D5AE5;
+    font-size:18px;
+    line-height: 1.17;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
+.logo-part{
+color:#2E2F42;}
+
+.link{
+text-decoration:none;
+
+}
+
+.pages{
+    
+    list-style: none;
+    text-decoration:none;
+   
+}
+.page-description{
+    color:#2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+.page-description:hover,
+.page-description:focus{
+    color:#404bbf;
+}
+
+.list{
+    list-style: none;
+    font-style:normal;
+   
+}
+
+.address-description{
+    color:#434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+.address-description:hover,
+.address-description:focus{
+    color:#404bbf;
+}
+
+
+
+.contact{
+    font-style: normal;
+}
+.hero{
+    background-color: #2e2f42 ;
+
+}
+.hero-title{
+color:#FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700px;
+line-height: 1.07;
+letter-spacing: 1.12px;
+
+}
+
+.hero-button{
+font-family:'Roboto', sans-serif; ;
+
+background-color:#4D5AE5;
+color:#FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
+cursor:pointer; }
+
+.hero-button:hover,
+.hero-button:focus{
+  color: #FFFFFF;
+  background-color: #404BBF;
+
+}
+
+h2{
+    color:#2E2F42;
+}
+
+.goals-list{
+    list-style: none;
+}
+.goals-title{
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.goals-paragraph{
+    color:var(--grey-paragraphs);
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+
+}
+.what-are-we-doing-list{
+    list-style-type: none;
+}
+.what-are-we-doing-title{
+    color: var(--navy-blue);
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.our-team{
+    background-color: #F4F4FD;
+
+}
+
+.our-team-box{
+    background-color: #FFFFFF ;
+}
+.our-team-title-list{
+    list-style: none;
+   }
+
+.our-team-title{
+    color:var(--navy-blue);
+    font-size: 36px;
+    font-weight: 700px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.our-team-name{
+    color: var(--navy-blue);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+.our-team-paragraph{
+    color: var(--grey-paragraphs);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.footer{
+    background-color: #2e2f42;
+}
+.logo-part-foot{
+    color: var(--purple);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.logo-foot{
+    color:var(--off-white);
+    
+}
+.footer-paragraph{
+    color: var(--off-white);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+
+/*/PORTFOLIO/*/
+
+
+.filter-list{
+    list-style: none;
+}
+
+.filter{
+    color:#4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #F4F4FD;
+    font-family: "Roboto", sans-serif;
+    cursor:pointer;
+}
+.filter:hover,
+.filter:focus{
+    color:#FFFFFF;
+    background-color: #404bbf;
+}
+
+
+.projects{
+    list-style: none;
+}
+
+.project-title{
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing:0.02em;
+
+}
+
+.project-paragraph{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+}
