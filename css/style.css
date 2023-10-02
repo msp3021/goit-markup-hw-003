@@ -142,11 +142,12 @@ h2{
     .goals-list{
         list-style: none;
         display: flex;
-        gap:24px;   }
+        gap:24px; 
+        width: calc((100% - 72px) / 4);   }
     
 
 .goals-box{
-    width: calc((100% - 72px) / 4); }
+   }
 
 
 
@@ -171,7 +172,8 @@ h2{
 .what-are-we-doing-list{
 list-style-type: none;
 display: flex;
-gap: 24px;  }
+gap: 24px; 
+flex-basis: calc((100% - 3 * 16px) / 3);  }
 
 
 .what-are-we-doing-title{
@@ -185,7 +187,7 @@ gap: 24px;  }
     margin-bottom:72px; }
 
 .what-are-we-doing-box{
-    flex-basis: calc((100% - 3 * 16px) / 3); }
+   }
 
 .our-team{
     background-color: #F4F4FD;
@@ -310,12 +312,10 @@ margin-bottom: 72px; }
     display: flex;
 flex-wrap: wrap;
 column-gap: 24px; 
-row-gap: 48px;  }
+row-gap: 48px; 
+width: calc((100% - 48px) / 3); }
 
-.project-box{
-    width: calc((100% - 48px) / 3);
-
-}
+.project-box{}
 
 .project-title-paragraph{
     padding: 32px 16px;
@@ -328,7 +328,8 @@ row-gap: 48px;  }
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing:0.02em;}
+    letter-spacing:0.02em;
+    margin-bottom: 8px;}
 
 
 .project-paragraph{
@@ -336,4 +337,4 @@ row-gap: 48px;  }
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;}
+  }
