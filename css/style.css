@@ -13,7 +13,9 @@ body{
     --white:#FFF;
 }
 
-
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
 .logo{
     font-family: 'Raleway', sans-serif;
     color:#4D5AE5;
@@ -21,46 +23,43 @@ body{
     line-height: 1.17;
     font-weight: 800;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
+    text-transform: uppercase;}
 
-}
 .container{
     width: 1158px;
-    margin: auto;
-}
-.logo-nav{
-   padding:25.5px;
-   display: flex;}
-.nav{
-    padding: 24px;
-    display: flex;
-    gap: 40px;
-
-}
-
+    margin:0;}
 
 .logo-nav-address{
     display:flex;
-   justify-content: space-between;
-   
-   
+    padding: 0 15px;}
 
-}
+.logo-nav{
+    display:flex;
+   align-items: center;}
+
+
+.logo{
+    margin-right: 76px}
+
+.menu{
+    padding: 24px;
+    display: flex;
+    gap: 40px}
+
 
 .logo-part{
 color:#2E2F42;}
 
+
 .link{
 text-decoration:none;
-
 }
 
 .pages{
-    
     list-style: none;
-    text-decoration:none;
-   
-}
+    text-decoration:none;}
+
+
 .page-description{
     color:#2E2F42;
     font-size: 16px;
@@ -68,10 +67,9 @@ text-decoration:none;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
-  
+    padding: 24px 0;}
 
 
-}
 .page-description:hover,
 .page-description:focus{
     color:#404bbf;
@@ -80,31 +78,31 @@ text-decoration:none;
 .list{
     list-style: none;
     font-style:normal;
- 
-}
+ display: flex;
+ gap:40px;}
+
 
 .address-description{
     color:#434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    text-decoration: none;
-}
+    text-decoration: none;}
+
+
 .address-description:hover,
 .address-description:focus{
     color:#404bbf;
 }
 
-
-
 .contact{
-    font-style: normal;
-}
-.hero{
-    background-color: #2e2f42 ;
-   
+    font-style: normal;}
 
-}
+.hero{
+    background-color: #2e2f42;
+    padding: 188px 0; }
+
+
 .hero-title{
 color:#FFF;
 text-align: center;
@@ -113,9 +111,7 @@ font-weight: 700px;
 line-height: 1.07;
 letter-spacing: 1.12px;
 padding-top: 188px;
-
-text-align: center;
-margin:0;}
+max-width: 496px}
 
 .hero-button{
 font-family:'Roboto', sans-serif; ;
@@ -126,61 +122,63 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
 cursor:pointer; 
-padding: 16px 32px;
-margin-top: 48px;
-margin-bottom: 188px;
+display: block;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 
-text-align: center; }
+}
 
 .hero-button:hover,
 .hero-button:focus{
   color: #FFFFFF;
   background-color: #404BBF;
-
 }
 
 h2{
-    color:#2E2F42;
-    
+    color:#2E2F42;}
+
+.goals{
+    padding: 120px 0;
 }
 .goals-box{
-margin-top: 120px;
-  
-
-
+    width: calc((100% - 72px) / 4)
 }
+
+
 .goals-list{
     list-style: none;
     display: flex;
-    gap:40px;
-    justify-content: center;
-   
-}
+    gap:24px;
+    }
+
+
 .goals-title{
     color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-   
-}
+    margin-bottom: 8px}
 
 .goals-paragraph{
     color:var(--grey-paragraphs);
     font-size: 16px;
     line-height:1.5;
-    letter-spacing: 0.02em;
-  
+    letter-spacing: 0.02em;}
 
+.what-are-we-doing{
+    padding-bottom: 120px;
 }
+
 .what-are-we-doing-list{
-    list-style-type: none;
-    display: flex;
-    gap: 24px;
-
-    margin-bottom:120px;
-
+list-style-type: none;
+display: flex;
+gap: 24px;
 }
+
+
 .what-are-we-doing-title{
     color: var(--navy-blue);
     font-size: 36px;
@@ -189,57 +187,75 @@ margin-top: 120px;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    margin-top:120px;
-    margin-bottom:72px;
-    text-align: center;
-}
 
+    margin-bottom:72px;
+   }
+
+.what-are-we-doing-box{
+    width: calc((100% - 48px) / 3);
+}
 .our-team{
     background-color: #F4F4FD;
-
+    padding: 120px 0;
 }
+
+
+
+
+    .our-team-title{
+        color:var(--navy-blue);
+        font-size: 36px;
+        font-weight: 700px;
+        line-height: 1.11;
+        letter-spacing: 0.72px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-top:120px;
+       margin-bottom: 72px;}
+
+.our-team-title-list{
+    list-style: none;
+    margin-bottom: 72px;
+    display: flex;
+    gap: 24px;
+}
+
 
 .our-team-box{
     background-color: #FFFFFF ;
-    margin-bottom: 120px;
-   
-}
-.our-team-title-list{
-    list-style: none;
-    display: flex;
- gap:24px;
-
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
    }
 
-.our-team-title{
-    color:var(--navy-blue);
-    font-size: 36px;
-    font-weight: 700px;
-    line-height: 1.11;
-    letter-spacing: 0.72px;
-    text-align: center;
-    text-transform: capitalize;
-    margin-top:120px;
-   margin-bottom: 72px;
-   
-}
+ .our-team-name-paragraph{
+    padding: 32px 16px;
+ }
+
 .our-team-name{
     color: var(--navy-blue);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-}
+    text-align: center;
+    margin-bottom: 8px; }
+
+
+
 .our-team-paragraph{
     color: var(--grey-paragraphs);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+text-align: center;
 }
+
 
 .footer{
     background-color: #2e2f42;
-}
+    padding: 100px 0;}
+
+
 .logo-part-foot{
     color: var(--purple);
     font-family: 'Raleway', sans-serif;
@@ -249,25 +265,23 @@ margin-top: 120px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
-    
-}
-.footer{
-   padding-top: 101.5px;
-   padding-left:156px;
-   padding-bottom: 17.5px;
-}
+display: inline-block;
+margin-bottom: 16px}
+
+
+
 
 .logo-foot{
-    color:var(--off-white);
-    
-}
+    color:var(--off-white);}
+
+
 .footer-paragraph{
     color: var(--off-white);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    margin-bottom: 100px;
-}
+ 
+    max-width: 264px;}
 
 
 /*/PORTFOLIO/*/
@@ -285,34 +299,30 @@ margin-top: 120px;
     letter-spacing: 0.04em;
     background-color: #F4F4FD;
     font-family: "Roboto", sans-serif;
-    cursor:pointer;
-}
+    cursor:pointer;}
+
+
 .filter:hover,
 .filter:focus{
     color:#FFFFFF;
-    background-color: #404bbf;
-}
+    background-color: #404bbf;}
 
 
 .projects{
     list-style: none;
-    display: flex;
-   
-}
+    display: flex;}
+
 
 .project-title{
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing:0.02em;
+    letter-spacing:0.02em;}
 
-}
 
 .project-paragraph{
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
-
-}
+    letter-spacing: 0.02em;}
