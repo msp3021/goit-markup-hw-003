@@ -13,6 +13,7 @@ body{
     --white:#FFF;
 }
 
+
 .logo{
     font-family: 'Raleway', sans-serif;
     color:#4D5AE5;
@@ -23,6 +24,29 @@ body{
     text-transform: uppercase;
 
 }
+.container{
+    width: 1158px;
+    margin: auto;
+}
+.logo-nav{
+   padding:25.5px;
+   display: flex;}
+.nav{
+    padding: 24px;
+    display: flex;
+    gap: 40px;
+
+}
+
+
+.logo-nav-address{
+    display:flex;
+   justify-content: space-between;
+   
+   
+
+}
+
 .logo-part{
 color:#2E2F42;}
 
@@ -44,6 +68,8 @@ text-decoration:none;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
+  
+
 
 }
 .page-description:hover,
@@ -54,7 +80,7 @@ text-decoration:none;
 .list{
     list-style: none;
     font-style:normal;
-   
+ 
 }
 
 .address-description{
@@ -76,6 +102,7 @@ text-decoration:none;
 }
 .hero{
     background-color: #2e2f42 ;
+   
 
 }
 .hero-title{
@@ -85,19 +112,25 @@ font-size: 56px;
 font-weight: 700px;
 line-height: 1.07;
 letter-spacing: 1.12px;
+padding-top: 188px;
 
-}
+text-align: center;
+margin:0;}
 
 .hero-button{
 font-family:'Roboto', sans-serif; ;
-
 background-color:#4D5AE5;
 color:#FFF;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
-cursor:pointer; }
+cursor:pointer; 
+padding: 16px 32px;
+margin-top: 48px;
+margin-bottom: 188px;
+
+text-align: center; }
 
 .hero-button:hover,
 .hero-button:focus{
@@ -108,10 +141,20 @@ cursor:pointer; }
 
 h2{
     color:#2E2F42;
+    
 }
+.goals-box{
+margin-top: 120px;
+  
 
+
+}
 .goals-list{
     list-style: none;
+    display: flex;
+    gap:40px;
+    justify-content: center;
+   
 }
 .goals-title{
     color: var(--navy-blue);
@@ -119,6 +162,7 @@ h2{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
+   
 }
 
 .goals-paragraph{
@@ -126,10 +170,16 @@ h2{
     font-size: 16px;
     line-height:1.5;
     letter-spacing: 0.02em;
+  
 
 }
 .what-are-we-doing-list{
     list-style-type: none;
+    display: flex;
+    gap: 24px;
+
+    margin-bottom:120px;
+
 }
 .what-are-we-doing-title{
     color: var(--navy-blue);
@@ -139,6 +189,9 @@ h2{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-top:120px;
+    margin-bottom:72px;
+    text-align: center;
 }
 
 .our-team{
@@ -148,9 +201,14 @@ h2{
 
 .our-team-box{
     background-color: #FFFFFF ;
+    margin-bottom: 120px;
+   
 }
 .our-team-title-list{
     list-style: none;
+    display: flex;
+ gap:24px;
+
    }
 
 .our-team-title{
@@ -161,6 +219,9 @@ h2{
     letter-spacing: 0.72px;
     text-align: center;
     text-transform: capitalize;
+    margin-top:120px;
+   margin-bottom: 72px;
+   
 }
 .our-team-name{
     color: var(--navy-blue);
@@ -188,6 +249,12 @@ h2{
     letter-spacing: 0.54px;
     text-transform: uppercase;
     text-decoration: none;
+    
+}
+.footer{
+   padding-top: 101.5px;
+   padding-left:156px;
+   padding-bottom: 17.5px;
 }
 
 .logo-foot{
@@ -199,6 +266,7 @@ h2{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
+    margin-bottom: 100px;
 }
 
 
@@ -207,7 +275,7 @@ h2{
 
 .filter-list{
     list-style: none;
-}
+    display: flex;}
 
 .filter{
     color:#4D5AE5;
@@ -228,6 +296,8 @@ h2{
 
 .projects{
     list-style: none;
+    display: flex;
+   
 }
 
 .project-title{

@@ -7,15 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/style.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" 
+integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="./css/style.css" />
 <title>Document</title>
   </head>
   <body>
+    <div class="container">
     <header>
-      <nav>
+      <div class="logo-nav-address">
+      <nav class="logo-nav">
         <a class="logo link" href="./index.html">Web<span class="logo-part">Studio</span></a>
        
-          <ul class="list">
+          <ul class="list nav">
             <li><a class="page-description link" href="./index.html">Studio</a></li>
           <li><a class="page-description link" href="./portfolio.html">Portfolio</a></li>
           <li><a class="page-description link" href="">Contacts</a></li>
@@ -29,47 +35,58 @@
       </ul>
 
     </address>
+  </div>
     </header>
-   
+  </div>
 
     <main>
+      <div class="container">
         <section class="hero">
       <h1 class="hero-title">Effective Solutions <br/>for Your Business</h1>
       <button class="hero-button" type="button">Order Service</button>
     </section>
+  </div>
+  <div class="container">
     <section class="goals">
-        <h2 >Goals</h2>
+      <!--
+        <h2 >Goals</h2> -->
       <ul class="goals-list list">
-        <li>
+        <li class="goals-box">
         <h3 class="goals-title">Strategy</h3>
           <p class="goals-paragraph">
-            Our goal is to identify the business
-problem to walk away with the perfect and creative solution. 
+            Our goal is to identify the busines 
+            problem to walk away with the 
+            perfect and creative solution. 
           </p>
         </li>
-        <li>
+        <li class="goals-box">
           <h3 class="goals-title">Punctuality</h3>
           <p class="goals-paragraph">
-            Bring the key message to the brand's audience 
-            for the best price within the shortest possible time.
+            Bring the key message to the
+            brand's audience for the best price
+            within the shortest possible time.
           </p>
         </li>
-        <li>
+        <li class="goals-box">
           <h3 class="goals-title">Diligence</h3>
           <p class="goals-paragraph">
-            Research and confirm brands that present the strongest digital growth opportunities
-            and minimize risk.
+            Research and confirm brands that
+            present the strongest digital growth
+            opportunities and minimize risk.
           </p>
         </li>
-        <li>
+        <li class="goals-box">
           <h3 class="goals-title">Technologies</h3>
           <p class="goals-paragraph">
-           Design practice focused on digital experiences. We bring forth a deep passion
-           for problem-solving.
+           Design practice focused on digital
+          experiences. We bring forth a deep 
+          passion for problem-solving.
           </p>
         </li>
       </ul>
     </section>
+  </div>
+  <div class="container">
     <section class="what-are-we-doing">
       <h2 class="what-are-we-doing-title">What are we doing</h2>
       <ul class="what-are-we-doing-list list">
@@ -98,6 +115,8 @@ problem to walk away with the perfect and creative solution.
       /></li>
     </ul>
     </section>
+  </div>
+  <div class="container">
     <section class="our-team">
       <h2 class="our-team-title">Our Team</h2>
       <ul class="our-team-title-list list">
@@ -148,12 +167,14 @@ problem to walk away with the perfect and creative solution.
     </ul>
 
 </section>
+</div>
     </main>
-
+<div class="container">
     <footer class="footer">
         <a href="./index.html" class="logo-part-foot link">WEB<span class="logo-foot" >Studio</span></a>
       <p class="footer-paragraph">Increase the flow of customers and <br/>sales for your business with
         digital <br/> marketing & growth solutions. </p>
     </footer>
+  </div>
   </body>
 </html>
