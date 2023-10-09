@@ -55,7 +55,7 @@ padding:0 15px;}
 .logo-nav-address{
     display:flex;
     padding: 0 15px;
-    gap:332px }
+    gap:332px; }
 
 .logo-nav{
     display:flex;
@@ -63,7 +63,7 @@ padding:0 15px;}
 
 
 .logo{
-    margin-right: 76px}
+    margin-right: 76px;}
 
 .menu{
     padding:24px 0; 
@@ -124,6 +124,7 @@ text-decoration:none;}
 .hero{
     background-color: #2e2f42;
     padding: 188px 0; }
+    
 .hero-main{
     display: flex;
     flex-direction: column;
