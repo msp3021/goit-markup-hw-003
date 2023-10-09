@@ -107,7 +107,13 @@ text-decoration:none;}
  display: flex;
  gap:40px;}
 
+.lists{
+    list-style: none;
+    font-style:normal;
+ display: flex;
+ gap: 24px;
 
+}
 .address-description{
     color:#434455;
     font-size: 16px;
